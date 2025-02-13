@@ -677,5 +677,4 @@ module.exports = {
     searchPageData,
     shopsData,
     trendingPageData,
-    newConst,
 }
