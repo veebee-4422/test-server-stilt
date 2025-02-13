@@ -102,7 +102,7 @@ app.get("/search-page-data", (req, res, next) => {
 });
 
 app.get("/surprise-inside", (req, res, next) => {
-    const status = String(req.query=="is");
+    const status = Number(req.query.status_code);
 
     if (status) {
         return res.status(status).send("I love you beboooooO!!!!!❤️❤️❤️❤️❤️❤️")
