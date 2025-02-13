@@ -101,6 +101,16 @@ app.get("/search-page-data", (req, res, next) => {
     return res.send(searchPageData);
 });
 
+app.get("/surprise-inside", (req, res, next) => {
+    const status = String(req.query=="is");
+
+    if (status) {
+        return res.status(status).send("I love you beboooooO!!!!!❤️❤️❤️❤️❤️❤️")
+    }
+
+    return res.send(searchPageData);
+});
+
 
 const server = app.listen(3000, async () => {
     console.log(`Server listening at port 3000 Hey Hi Reverted`);
