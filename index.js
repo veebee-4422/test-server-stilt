@@ -85,7 +85,7 @@ app.get("/trending-page-data", (req, res, next) => {
     const status = Number(req.query.status_code);
 
     if (status) {
-        return res.status(status).send("OH NO AN ERROR")
+        return res.status(404).send('Sorry, cant find that');
     }
 
     return res.send(trendingPageData);
