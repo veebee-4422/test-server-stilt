@@ -103,5 +103,5 @@ app.get("/search-page-data", (req, res, next) => {
 
 
 const server = app.listen(3000, async () => {
-    console.log(`Server listening at port 3000`);
+    console.log(`Server listening at port 3000 Hey Hi`);
 });
