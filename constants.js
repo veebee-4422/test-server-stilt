@@ -670,6 +670,160 @@ const trendingPageData = {
     }
 }
 
+const shopPageData = {
+    "data": {
+        "id": "shop_123",
+        "name": "Tasty Bites",
+        "location": "123 Main Street, Food City",
+        "contact": "+1234567890",
+        "open_hours": "10:00 AM - 11:00 PM",
+        "cuisine_types": ["Italian", "Mexican", "Chinese"],
+        "platform": "UberEats",
+        "order_link": "https://www.ubereats.com/tastybites",
+        "rating": 4.5,
+        "review_count": 120,
+        "menu": {
+          "categories": [
+            {
+              "id": "cat_1",
+              "name": "Starters",
+              "has_subcategories": true,
+              "expanded": false,
+              "subcategories": [
+                {
+                  "id": "sub_1",
+                  "category_id": "cat_1",
+                  "name": "Veg Starters",
+                  "expanded": false,
+                  "items": [
+                    {
+                      "id": "item_1",
+                      "name": "Spring Rolls",
+                      "description": "Crispy rolls filled with fresh vegetables",
+                      "price": 5.99,
+                      "availability": true,
+                      "stock_status": "In Stock",
+                      "image_url": "https://example.com/spring_rolls.jpg",
+                      "customization_options": ["Extra Spicy", "No Onion"],
+                      "preparation_time": 15,
+                      "is_recommended": true,
+                      "is_spicy": false,
+                      "tags": ["Crispy", "Vegan"],
+                      "quantity": 1
+                    },
+                    {
+                      "id": "item_2",
+                      "name": "Paneer Tikka",
+                      "description": "Grilled paneer marinated in Indian spices",
+                      "price": 7.99,
+                      "availability": true,
+                      "stock_status": "Limited Stock",
+                      "image_url": "https://example.com/paneer_tikka.jpg",
+                      "customization_options": ["Extra Cheese", "Less Spicy"],
+                      "preparation_time": 20,
+                      "is_recommended": true,
+                      "is_spicy": true,
+                      "tags": ["Grilled", "Protein Rich"],
+                      "quantity": 1
+                    }
+                  ]
+                },
+                {
+                  "id": "sub_2",
+                  "category_id": "cat_1",
+                  "name": "Non-Veg Starters",
+                  "expanded": false,
+                  "items": [
+                    {
+                      "id": "item_3",
+                      "name": "Chicken Wings",
+                      "description": "Spicy and crispy chicken wings",
+                      "price": 8.99,
+                      "availability": true,
+                      "stock_status": "In Stock",
+                      "image_url": "https://example.com/chicken_wings.jpg",
+                      "customization_options": ["Extra Sauce", "Boneless"],
+                      "preparation_time": 25,
+                      "is_recommended": true,
+                      "is_spicy": true,
+                      "tags": ["Spicy", "Crispy"],
+                      "quantity": 1
+                    }
+                  ]
+                }
+              ],
+              "items": []
+            },
+            {
+              "id": "cat_2",
+              "name": "Main Course",
+              "has_subcategories": false,
+              "expanded": false,
+              "subcategories": [],
+              "items": [
+                {
+                  "id": "item_4",
+                  "name": "Margherita Pizza",
+                  "description": "Classic cheese and tomato pizza",
+                  "price": 12.99,
+                  "availability": true,
+                  "stock_status": "In Stock",
+                  "image_url": "https://example.com/margherita_pizza.jpg",
+                  "customization_options": ["Extra Cheese", "Thin Crust"],
+                  "preparation_time": 30,
+                  "is_recommended": true,
+                  "is_spicy": false,
+                  "tags": ["Cheesy", "Vegetarian"],
+                  "quantity": 1
+                },
+                {
+                  "id": "item_5",
+                  "name": "Butter Chicken",
+                  "description": "Rich and creamy butter chicken with naan",
+                  "price": 14.99,
+                  "availability": true,
+                  "stock_status": "In Stock",
+                  "image_url": "https://example.com/butter_chicken.jpg",
+                  "customization_options": ["Extra Cream", "Less Spicy"],
+                  "preparation_time": 35,
+                  "is_recommended": true,
+                  "is_spicy": false,
+                  "tags": ["Creamy", "Indian Cuisine"],
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "id": "cat_3",
+              "name": "Desserts",
+              "has_subcategories": false,
+              "expanded": false,
+              "subcategories": [],
+              "items": [
+                {
+                  "id": "item_6",
+                  "name": "Chocolate Brownie",
+                  "description": "Rich and gooey chocolate brownie",
+                  "price": 6.99,
+                  "availability": true,
+                  "stock_status": "In Stock",
+                  "image_url": "https://example.com/brownie.jpg",
+                  "customization_options": ["Extra Chocolate", "With Ice Cream"],
+                  "preparation_time": 10,
+                  "is_recommended": true,
+                  "is_spicy": false,
+                  "tags": ["Chocolate", "Sweet"],
+                  "quantity": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+      
+
+}
+
 module.exports = {
     deepLinkData,
     homeActivitsData,
@@ -677,4 +831,5 @@ module.exports = {
     searchPageData,
     shopsData,
     trendingPageData,
+    shopPageData
 }

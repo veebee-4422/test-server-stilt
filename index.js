@@ -8,6 +8,7 @@ const {
     shopsData,
     trendingPageData,
     searchPageData,
+    shopPageData
 } = require("./constants.js");
 
 const app = express();
@@ -101,14 +102,17 @@ app.get("/search-page-data", (req, res, next) => {
     return res.send(searchPageData);
 });
 
-app.get("/surprise-inside", (req, res, next) => {
+
+
+
+app.get("/shop-page-data", (req, res, next) => {
     const status = Number(req.query.status_code);
 
     if (status) {
-        return res.status(status).send("I love you beboooooO!!!!!❤️❤️❤️❤️❤️❤️")
+        return res.status(status).send("OH NO AN ERROR")
     }
 
-    return res.send(searchPageData);
+    return res.send(shopPageData);
 });
 
 
