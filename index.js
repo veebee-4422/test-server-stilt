@@ -72,7 +72,7 @@ app.get("/get-menu-data", (req, res, next) => {
 
 });
 
-app.get("/shop-page-data", (req, res, next) => {
+app.get("/shop-item-data", (req, res, next) => {
     const status = Number(req.query.status_code);
 
     if (status) {
