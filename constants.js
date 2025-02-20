@@ -696,7 +696,7 @@ const shopPageData = {
                   "category_id": "cat_1",
                   "name": "Veg Starters",
                   "expanded": false,
-                  "view_orientation": "verticle",
+                  "view_orientation": "horizontal",
                   "items": [
                     {
                       "id": "item_1",
@@ -838,3 +838,4 @@ module.exports = {
     trendingPageData,
     shopPageData
 }
+//cd test-server-stilt/
