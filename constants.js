@@ -689,12 +689,14 @@ const shopPageData = {
               "name": "Starters",
               "has_subcategories": true,
               "expanded": false,
+              "view_orientation": "horizontal",
               "subcategories": [
                 {
                   "id": "sub_1",
                   "category_id": "cat_1",
                   "name": "Veg Starters",
                   "expanded": false,
+                  "view_orientation": "verticle",
                   "items": [
                     {
                       "id": "item_1",
@@ -732,6 +734,7 @@ const shopPageData = {
                   "id": "sub_2",
                   "category_id": "cat_1",
                   "name": "Non-Veg Starters",
+                  "view_orientation": "horizontal",
                   "expanded": false,
                   "items": [
                     {
@@ -760,6 +763,7 @@ const shopPageData = {
               "has_subcategories": false,
               "expanded": false,
               "subcategories": [],
+              "view_orientation": "verticle",
               "items": [
                 {
                   "id": "item_4",
@@ -798,6 +802,7 @@ const shopPageData = {
               "name": "Desserts",
               "has_subcategories": false,
               "expanded": false,
+              "view_orientation": "horizontal",
               "subcategories": [],
               "items": [
                 {
