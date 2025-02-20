@@ -689,7 +689,7 @@ const shopPageData = {
               "name": "Starters",
               "has_subcategories": true,
               "expanded": false,
-              "view_orientation": "horizontal",
+              "view_orientation": "verticle",
               "subcategories": [
                 {
                   "id": "sub_1",
@@ -763,7 +763,7 @@ const shopPageData = {
               "has_subcategories": false,
               "expanded": false,
               "subcategories": [],
-              "view_orientation": "verticle",
+              "view_orientation": "horizontal",
               "items": [
                 {
                   "id": "item_4",
@@ -802,7 +802,7 @@ const shopPageData = {
               "name": "Desserts",
               "has_subcategories": false,
               "expanded": false,
-              "view_orientation": "horizontal",
+              "view_orientation": "verticle",
               "subcategories": [],
               "items": [
                 {
