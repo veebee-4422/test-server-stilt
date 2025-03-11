@@ -28,7 +28,7 @@ const homeActivitsData = {
             "optionalToShow": "What you want to eat today?",
             "searchBoxFloating": {
                 "id": null,
-                "bgColor": "#ffffff00",
+                "bgColor": "#0000ffff",
                 "barBgColor": "#FFFFFF",
                 "barRadius": 12.0,
                 "barBorderColor": "#FFFFFF",
