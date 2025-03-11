@@ -21,7 +21,7 @@ const homeActivitsData = {
         "tabToLand": 0,
         "topTextsColor": "",
         "topTheming": {
-            "locationImg": "null",
+            "locationImg": null,
             "nameToShow": "Sanjeet Kushwaha",
             "addressToShow": "Unit 821 JMD Megapolis",
             "userImg": null,
