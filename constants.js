@@ -30,30 +30,30 @@ const homeActivitsData = {
                 "id": null,
                 "bgColor": "#0000ffff",
                 "barBgColor": "#FFFFFF",
-                "barRadius": 22.0,
-                "barBorderColor": "#FFFFFF",
-                "barBorderWidth": 0,
+                "barRadius": 25.0,
+                "barBorderColor": "#25393838",
+                "barBorderWidth": 5,
                 "hints": [
                     "Search restaurants...",
                     "Find dishes...",
                     "Discover new places..."
                 ],
-                "hintColor": "#111111",
+                "hintColor": "#5D5959",
                 "fontWeight": null
             },
             "searchBoxPinned": {
                 "id": null,
-                "bgColor": "#111111",
+                "bgColor": "#f0d4cc",
                 "barBgColor": "#FFFFFF",
-                "barRadius": 8.0,
-                "barBorderColor": "#FFFFFF",
-                "barBorderWidth": 2,
+                "barRadius": 25.0,
+                "barBorderColor": "#25393838",
+                "barBorderWidth": 5,
                 "hints": [
                     "Search restaurants...",
                     "Find dishes...",
                     "Discover new places..."
                 ],
-                "hintColor": "#111111",
+                "hintColor": "#5D5959",
                 "fontWeight": null
             }
         },
