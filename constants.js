@@ -30,9 +30,9 @@ const homeActivitsData = {
                 "id": null,
                 "bgColor": "#0000ffff",
                 "barBgColor": "#FFFFFF",
-                "barRadius": 12.0,
+                "barRadius": 22.0,
                 "barBorderColor": "#FFFFFF",
-                "barBorderWidth": 2,
+                "barBorderWidth": 0,
                 "hints": [
                     "Search restaurants...",
                     "Find dishes...",
